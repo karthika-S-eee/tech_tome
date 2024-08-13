@@ -1,9 +1,12 @@
 const express= require("express");
 const app=express();
+const cors=require('cors');
+
 const productRoutes=require("./routes/productRoutes")
 const userRoutes=require("./routes/userRoute")
 const adminRoutes=require("./routes/adminRoute")
 const orderRoutes=require('./routes/orderRoute');
+app.use(cors());
 
 app.use(express.json());
 const mongoose=require("mongoose");
