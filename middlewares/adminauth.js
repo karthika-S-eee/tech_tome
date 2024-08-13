@@ -59,9 +59,7 @@ try{
     const decoded=jwt.verify(token,"secret_token")
    const user = await User.findById(decoded.admin_id)
    console.log(user)
-   if (user.role !== 'admin') {
-      return res.status(403).json({ error: 'Access denied' })
-            }
+  
     req.user=decoded;
     next();
 }
