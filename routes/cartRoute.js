@@ -4,6 +4,6 @@ const express=require('express');
 const router = express.Router();
 
 router.post("/",auth,cartController.createCart)
- router.get("/display",auth,cartController.getCart)
+ router.get("/",auth,cartController.getCart)
  router.delete("/delete/:id",auth,cartController.deleteCart)
 module.exports=router;
