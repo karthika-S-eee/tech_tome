@@ -6,6 +6,7 @@ const productRoutes=require("./routes/productRoutes")
 const userRoutes=require("./routes/userRoute")
 const adminRoutes=require("./routes/adminRoute")
 const orderRoutes=require('./routes/orderRoute');
+const cartRoutes=require("./routes/cartRoute")
 app.use(cors());
 
 app.use(express.json());
@@ -19,6 +20,7 @@ app.use("/user",userRoutes);
 app.use("/admin",adminRoutes);
 app.use("/products",productRoutes);
 app.use("/order",orderRoutes);
+app.use("/cart",cartRoutes)
 
 
 
