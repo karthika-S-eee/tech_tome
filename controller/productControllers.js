@@ -23,7 +23,7 @@ const createProduct = async(req,res)=>{
    
     const{title,
         subtitle,
-        isbn13,
+        isbn13:require,
         price,
         image,
         url,
@@ -41,7 +41,7 @@ const createProduct = async(req,res)=>{
         id:uuidv4(),
         title,
             subtitle,
-            isbn13,
+            isbn13:require,
             price,
             image,
             url,
