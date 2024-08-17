@@ -59,7 +59,13 @@ try{
     const decoded=jwt.verify(token,"secret_token")
    const user = await User.findById(decoded.admin_id)
    console.log(user)
-  
+   if (user && user.role === 'admin') {
+    res.json({ isAdmin: true });
+    req.user=decoded;
+    next();
+  } else {
+    res.json({ isAdmin: false });
+  }
     req.user=decoded;
     next();
 }
