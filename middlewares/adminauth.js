@@ -61,8 +61,6 @@ try{
    console.log(user)
    if (user && user.role === 'admin') {
     res.json({ isAdmin: true });
-    req.user=decoded;
-    next();
   } else {
     res.json({ isAdmin: false });
   }
