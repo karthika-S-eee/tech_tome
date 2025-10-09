@@ -1,0 +1,95 @@
+/* carthistory.css */
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: center;
+   
+  }
+  
+  .left-container, .right-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .left-container {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+  }
+  
+  .cart-items-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .cart-items-card img {
+    margin-right: 20px;
+  }
+  
+  .cart-items-card div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-container button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-container button:hover {
+    background-color: #ccc;
+  }
+  
+  .header, .subtotal, .itemscount, .deliveryfee, .total {
+    margin: 10px 0;
+    gap: 2px;
+  }
+  
+  .total {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+  }
+  .header{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+  }
+  .cartimg{
+    display: flex;
+    justify-content:center;
+  }

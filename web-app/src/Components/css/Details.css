@@ -1,0 +1,116 @@
+.book-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .book-image {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .book-details {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .book-details p {
+    display: table-row;
+  }
+  
+  .book-details p strong {
+    display: table-cell;
+    font-weight: bold;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+  }
+  
+  .book-details p span {
+    display: table-cell;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .book-description {
+    margin: 20px 0;
+  }
+  
+  .book-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .book-link:hover {
+    text-decoration: underline;
+  }
+  
+  .book-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .book-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Table-like styling */
+  .book-container p {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .book-container p:last-child {
+    border-bottom: none;
+  }
+  
+  .book-container p strong {
+    flex-basis: 40%;
+    font-weight: bold;
+  }
+  
+  .book-container p span {
+    flex-basis: 60%;
+    text-align: right;
+  }
+  
+  .book-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .book-container a:hover {
+    text-decoration: underline;
+  }
+  

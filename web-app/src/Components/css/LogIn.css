@@ -1,0 +1,380 @@
+/* src/components/UserPage.css */
+
+/* Main container for the user login page */
+.user-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://th.bing.com/th/id/OIP.xfCqhJMQeFnyS3fDJ1-zzgHaE0?rs=1&pid=ImgDetMain') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Container for the login form */
+.user-form-container {
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading styling */
+.user-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Pacifico', cursive; /* Example of a stylish font */
+  color: #333; /* Adjust color as needed */
+}
+
+/* Styling for form inputs */
+.user-form-input {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for form button */
+.user-form-button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-form-button:hover {
+  background-color: #0056b3;
+}
+.user-text-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* Styling for additional text and links */
+.user-text {
+  margin: 10px 0;
+}
+
+.user-link {
+  color: #2b90f6;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+
+.user-link:hover {
+  color: #0b0b0b;
+}
+
+
+  /* src/components/AdminPage.css */
+
+/* Main container for the admin login page */
+
+/* Container for the login form */
+.admin-form-container {
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+
+/* Styling for form button */
+.admin-form-button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for any additional text or links */
+.admin-text {
+  margin: 10px 0;
+}
+
+.admin-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.admin-link:hover {
+  text-decoration: underline;
+}
+
+/* General Styling */
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for the Home Page */
+.home-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('https://wallpapercave.com/wp/wp2036914.jpg'); /* Replace with a real image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better text readability */
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Features Section */
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.feature-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.feature-item h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* About Section */
+.about-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+
+/* src/components/HomePage.css */
+.home-page {
+  padding: 50px;
+  background-color: #4493e1; /* Mild background color */
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif; /* Change to your desired font */
+  color: #333; /* Adjust color as needed */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-option {
+  cursor: pointer;
+  width: 150px;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-option:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+  
+/* src/components/AdminPage.css */
+
+/* Main container for the admin login page */
+.admin-page-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://wallpapercave.com/wp/wp2036914.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+/* Styling for form inputs */
+.admin-form-input {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for form button */
+.admin-form-button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for any additional text or links */
+.admin-text {
+  margin: 10px 0;
+}
+
+.admin-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.admin-link:hover {
+  text-decoration: underline;
+}
+
+/* src/components/SignUp.css */
+
+/* Overall background styling */
+.signup-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://th.bing.com/th/id/OIP.xfCqhJMQeFnyS3fDJ1-zzgHaE0?rs=1&pid=ImgDetMain') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Container for the sign-up form */
+.signup-form-container {
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for readability */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Pacifico', cursive; /* Example of a stylish font */
+  color: #333; /* Adjust color as needed */
+  text-align: center;
+}
+
+/* Styling for form inputs */
+.signup-form-input {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for form button */
+.signup-form-button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-form-button:hover {
+  background-color: #0056b3;
+}
+
